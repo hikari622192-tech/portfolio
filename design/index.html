@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>制作実績｜デザイン・画像制作ポートフォリオ</title>
+<style>
+  :root {
+    --cream: #faf6ef;
+    --green: #1f4a38;
+    --green-light: #eaf2ee;
+    --ink: #2b2b28;
+    --muted: #7a776f;
+    --line: #e5ddcf;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.8;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  header {
+    background: var(--green);
+    color: #fff;
+    padding: 56px 0 48px;
+    text-align: center;
+  }
+  header .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 999px;
+    padding: 4px 16px;
+    margin-bottom: 18px;
+  }
+  header h1 { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+  header p.sub { margin-top: 14px; font-size: 14px; opacity: .9; }
+
+  .tools {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .tools span {
+    background: rgba(255,255,255,.14);
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-size: 12.5px;
+  }
+
+  .notice {
+    background: var(--green-light);
+    border-left: 4px solid var(--green);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    font-size: 13px;
+    color: #3d3a33;
+    margin: 36px 0 8px;
+  }
+
+  section { margin: 56px 0; }
+  h2 {
+    font-size: 20px;
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+  }
+  .lead { font-size: 14px; color: var(--muted); margin-bottom: 22px; }
+
+  figure { margin: 0; }
+  figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: #fff;
+  }
+  figcaption { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .stack > figure + figure { margin-top: 24px; }
+
+  .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+  .ba .tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 999px;
+    padding: 3px 14px;
+    margin-bottom: 8px;
+  }
+  .tag.before { background: #e9e4da; color: #6b675e; }
+  .tag.after  { background: var(--green); color: #fff; }
+
+  footer {
+    background: var(--green);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px 48px;
+    margin-top: 72px;
+    font-size: 14px;
+  }
+  footer a { color: #cfe3d8; }
+
+  @media (max-width: 640px) {
+    header h1 { font-size: 21px; }
+    .grid2, .grid3, .ba { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="eyebrow">WORKS</span>
+    <h1>デザイン・画像制作ポートフォリオ</h1>
+    <p class="sub">不動産の販促物とWebメディア運営で培った、写真×文字組み×生成AIの制作実例です。</p>
+    <div class="tools">
+      <span>Photoshop（10年以上）</span>
+      <span>Illustrator（10年以上）</span>
+      <span>Adobe Firefly</span>
+      <span>Canva</span>
+      <span>ChatGPT / Claude / Codex</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <p class="notice">
+    掲載しているのは、自主制作のサンプル（物件情報・商品はすべて架空またはフリー素材）と、自身が運営するWebメディアで実際に公開している制作物です。受託実務の成果物は守秘のため掲載していません。
+  </p>
+
+  <section>
+    <h2>生成AI × レタッチ｜商品画像サンプル</h2>
+    <p class="lead">生成AIで作成した化粧品の商品カット（左）に、色かぶりの除去・背景の白仕上げ・トリミング・シャープ処理を行い、商品ページ向けに仕上げたもの（右）。※自主制作サンプル</p>
+    <div class="ba">
+      <figure>
+        <span class="tag before">BEFORE｜AI生成直後</span>
+        <img src="img/ai_product_before.jpg" alt="AI生成直後の商品カット">
+      </figure>
+      <figure>
+        <span class="tag after">AFTER｜補正後</span>
+        <img src="img/ai_product_after.jpg" alt="色補正・シャープ処理後の商品カット">
+      </figure>
+    </div>
+    <p class="lead" style="margin-top:32px;">架空ブランド「SHIROHANA」のパッケージデザインを起こし（左）、ボトルへ直接プリントした仕上げ（右）。デザインの新規制作から商品モックアップまで一貫して制作できます。</p>
+    <div class="ba">
+      <figure>
+        <span class="tag before">DESIGN｜デザイン制作</span>
+        <img src="img/label_flat.png" alt="架空ブランドのパッケージデザイン" style="background:#fff;">
+      </figure>
+      <figure>
+        <span class="tag after">PRINT｜ボトルへ直接プリント</span>
+        <img src="img/ai_product_printed.jpg" alt="デザインをボトルへ直接プリントした商品カット">
+      </figure>
+    </div>
+    <div class="grid2" style="margin-top:24px;">
+      <figure>
+        <img src="img/ai_product_labeled.jpg" alt="ラベルシール版のボトルモックアップ">
+        <figcaption>ラベルシール仕様のバリエーション</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ai_jar_printed.jpg" alt="クリームジャーへのブランド展開">
+        <figcaption>同ブランドをクリームジャーへ展開</figcaption>
+      </figure>
+    </div>
+    <p class="lead" style="margin-top:32px;">販売ページ用の展開サンプル。</p>
+    <div class="grid2">
+      <figure>
+        <img src="img/ai_jar_promo.jpg" alt="化粧品の訴求サブ画像サンプル">
+        <figcaption>EC向け訴求サブ画像：ブランドロゴ・キャッチ・特長バッジのレイアウト</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ai_lifestyle.jpg" alt="使用シーンのライフスタイルカット">
+        <figcaption>使用シーンのイメージカット（生成AI＋トーン仕上げ）</figcaption>
+      </figure>
+    </div>
+    <p class="lead" style="margin-top:32px;">食品ECの例。無地パウチ（左）からパッケージデザイン適用後（右）までを1枚で見せる、リニューアル提案の比較ビジュアル。生成AIへのデザイン指示・構成設計から仕上げ確認まで一貫して制作。※ブランド・商品は架空</p>
+    <figure>
+      <img src="img/ai_food_renewal.jpg" alt="レトルトハンバーグのパッケージリニューアル前後の比較ビジュアル">
+      <figcaption>レトルト食品のパッケージリニューアル提案（Before / After 比較広告形式）</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>不動産マイソク（募集図面）テンプレート</h2>
+    <p class="lead">物件の魅力を1枚で伝える募集図面を、用途別に全10種デザインした自主制作テンプレート。レイアウト設計から写真配置・文字組みまで一貫して制作。掲載の物件情報・写真はすべて架空・フリー素材です。</p>
+    <div class="stack">
+      <figure>
+        <img src="img/maisoku_all.jpg" alt="マイソクテンプレート全10種の一覧">
+        <figcaption>全10種の一覧（賃貸・売買・収益・和モダン・ラグジュアリーなど用途別）</figcaption>
+      </figure>
+      <div class="grid2" style="margin-top:24px;">
+        <figure>
+          <img src="img/maisoku_03.jpg" alt="写真重視・リノベ物件向けマイソク">
+          <figcaption>写真重視・リノベ物件向け（A4横）</figcaption>
+        </figure>
+        <figure>
+          <img src="img/maisoku_05.jpg" alt="賃貸・縦型マイソク">
+          <figcaption>賃貸・縦型。間取り図を主役にした構成（A4縦）</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>記事アイキャッチ｜運営メディアで公開中</h2>
+    <p class="lead">自身が運営する不動産情報メディア「おかあさんのおうち」で実際に公開しているアイキャッチ。写真の選定・トーン調整・文字組みまで一貫して制作しています。</p>
+    <div class="grid3">
+      <figure><img src="img/eyecatch_ido.jpg" alt="井戸がある家の記事アイキャッチ"></figure>
+      <figure><img src="img/eyecatch_night.jpg" alt="夜景写真の記事アイキャッチ"></figure>
+      <figure><img src="img/eyecatch_street.jpg" alt="街並み写真の記事アイキャッチ"></figure>
+      <figure><img src="img/ai_app_house.jpg" alt="生成AIで作成した住宅とスマートフォンの合成ビジュアル">
+        <figcaption>生成AIを活用した合成ビジュアル（Web用挿絵）</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>制作の進め方</h2>
+    <p class="lead" style="margin-bottom:0;">
+      生成AI（Firefly・ChatGPT・Codexなど）で素材づくりとたたき台を高速化し、仕上げは必ず自分の目でトーン・ディテールを確認して整えます。納期厳守・チャットでの報告連絡を徹底しています。
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  <p>スキル・経歴の詳細はこちら：<br>
+  <a href="https://hikari622192-tech.github.io/portfolio/">自己紹介ページ（オンラインアシスタント×AI活用）</a></p>
+  <p style="margin-top:10px; font-size:12px; opacity:.8;">このページ自体もAIを活用して制作しています。</p>
+</footer>
+
+</body>
+</html>
